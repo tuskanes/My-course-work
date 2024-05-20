@@ -1,0 +1,262 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(sandy.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	font-family: Trebuchet MS, sans-serif;
+	margin: auto;
+	/* Added margin-top to move the entire content lower */
+}
+
+.hd{
+	text-align: center;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #f6f4ff;
+	font-weight: bold;
+
+}
+
+.main {
+	border: 1px black solid;
+	background-color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 16px;
+	margin-bottom: 10px;
+	color: red;
+	width: 800px;
+}
+
+.menu {
+	border: 1px black solid;
+	border-radius: 10px;
+	background-color: white;
+	color: green;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 16px;
+	margin-top: 6px;
+}
+
+.menu-login {
+	border: 1px black solid;
+	border-radius: 10px;
+	background-color: #ffd595;
+	color: green;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 16px;
+	margin-top: 6px;
+
+
+}
+
+a:hover {
+	color: red;
+}
+
+a:link {
+	color: green;
+	text-decoration: none;
+}
+
+.tab {
+	border: 1px black solid;
+	border-radius: 15px;
+	background-color: #e7ccff;
+	width: 800px;
+	color: black;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+	margin: 10px auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+
+}
+.tab-view{
+	border: 1px black solid;
+	border-radius: 15px;
+	background-color: rgb(231, 204, 255);
+	width: 1040px;
+	height: 480px;
+	color: black;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+	margin: 10px auto;
+
+
+}
+
+.yel {
+	color: purple;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.brown {
+	color: brown;
+}
+
+.home {
+
+	border-radius: 5px;
+
+	margin-left: -10%;
+	color: blue;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 7px;
+	height: 40px;
+	float: left;
+	clear: both;
+	width: 160px;
+}
+
+table {
+	text-align: center;
+	padding: 5px;
+	width: 750px;
+
+}
+.table-view{
+	text-align: center;
+	padding: 5px;
+	width: 1000px;
+	height: 440px;
+}
+
+th,
+td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	background-color: #f6f4ff;
+	border-radius: 8px;
+
+}
+
+tr {
+	background-color: #8978B8;
+
+}
+
+tr:hover {
+
+	color: black;
+}
+
+td {
+	padding: 5px;
+	border: 1px solid black;
+}
+
+th {
+	font-size: 20px;
+}
+
+footer {
+	margin-top: 25%;
+}
+
+strong {
+	color: rgba(19, 18, 18, 0.85);
+	font-size: large;
+
+}
+
+/* Панель*/
+
+.navbar{
+	background-color:#8978B8;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+
+
+
+}
+
+.navbar strong {
+	font-size: 2em;
+	padding: 14px 20px;
+	font-family: "Geologica Thin";
+	background-color: #645583;
+
+
+}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	/* Optional: adds space between list items */
+}
+
+.navbar li {
+	margin: 0;
+	float: right;
+}
+
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 14px;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	background-color:#655888;
+}
+/*Кнопка*/
+.custom-button {
+	border: 1px solid black;
+	background-color: #F0B17E;
+	color: black;
+	/* Adjust the text color if necessary */
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px; /* Optional: adds rounded corners */
+}
+
+/* Optional: Add hover effect */
+.custom-button:hover {
+	background-color: #e09d6c; /* Slightly darker shade */
+}

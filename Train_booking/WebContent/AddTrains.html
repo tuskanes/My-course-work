@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>TrainWay</title>
+	<link rel="stylesheet" href="UserHome_Css.css">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<header>
+	<nav class="navbar">
+		<strong><a href="AdminHome.html" style="color: #f6f4ff" >Train</a><a href="AdminHome.html" style="color:#e7ccff">Way</a></strong>
+		<ul>
+			<li><a href="adminviewtrainfwd">View Trains</a></li>
+			<li><a href="adminsearchtrainfwd">Train number</a></li>
+			<li><a href="addtrainfwd">Add train</a></li>
+			<li><a href="cancletrainfwd">Delete Train</a></li>
+			<li><a href="updatetrain">Update Train Details</a></li>
+			<li><a href="adminlogout">Logout</a></li>
+		</ul>
+	</nav>
+</header>
+<h1 class="hd">UKRAINE TRAIN BOOKING</h1>
+	<div class='tab'>
+		<p> Add Trains </p>
+	</div>
+	<form class="tab" action="adminaddtrain" method="post">
+		<br /> Train Number:<input type="text" name="trainno"><br />
+		<br /> Train Name: <input type="text" name="trainname"><br />
+		<br /> From Station: <input type="text" name="fromstation"><br />
+		<br /> To Station: <input type="text" name="tostation"><br />
+		<br /> Available: <input type="text" name="available"><br />
+		<br /> Fare (UAH): <input type="text" name="fare"><br />
+		<br /> <input type="submit" value=" ADD TRAIN "  class='custom-button'>
+	</form>
+	<br />
+</body>
+
+</html>
